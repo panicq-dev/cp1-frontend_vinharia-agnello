@@ -1,5 +1,12 @@
 # Vinharia Agnello
-**GRUPO:** Gabriel Almeida dos Santos, Roberto Dantas, Diego Rayhan e Kaue Tsuyoshi</p> 
+**GRUPO**
+| PESSOAS | RM |
+| --- | --- |
+| `Diego Rayhan Jalhium Machado` | 569129 |
+| `Gabriel Almeida dos Santos` | 573690 |
+| `Kaue Tsuyoshi Horoiwa` | 571192 |
+| `Roberto Dantas Melo Filho` | 566716 |
+| `Vitor Assis` | 572192 |
 **DESCRIÇÃO DO CASO:**
 **ESTRUTURA:**
 **LINK DO GITHUB E GITHUB PAGES.**
