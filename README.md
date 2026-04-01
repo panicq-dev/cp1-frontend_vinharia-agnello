@@ -1,5 +1,5 @@
 # Vinharia Agnello
-**GRUPO**
+## GRUPO
 | PESSOAS | RM |
 | --- | :---: |
 | `Diego Rayhan Jalhium Machado` | 569129 |
@@ -7,6 +7,10 @@
 | `Kaue Tsuyoshi Horoiwa` | 571192 |
 | `Roberto Dantas Melo Filho` | 566716 |
 | `Vitor Assis` | 572192 |
-**DESCRIÇÃO DO CASO:**
-**ESTRUTURA:**
-**LINK DO GITHUB E GITHUB PAGES.**
+
+
+## DESCRIÇÃO DO CASO: 
+lorem ipsum
+## ESTRUTURA: 
+lorem ipsum
+## LINK DO GITHUB E GITHUB PAGES.
