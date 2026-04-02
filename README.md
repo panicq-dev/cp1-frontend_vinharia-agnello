@@ -21,6 +21,7 @@ O sistema tem como objetivo permitir que os usuários naveguem por diferentes pr
 
 
 ## ESTRUTURA: 
+```
 cp1-frontend_vinharia-agnello/
 │
 ├── index.html
@@ -36,6 +37,6 @@ cp1-frontend_vinharia-agnello/
 │       ├── contato.html
 │       ├── sobre.html
 │       └── vinhos.html
-
+```
 
 ## LINK DO GITHUB E GITHUB PAGES.
