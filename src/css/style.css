@@ -1,3 +1,10 @@
 .logo_VinheriaAgnello{
     width: 35px;
 }
+
+.tiposVinho div {
+        width: 180px;
+        margin: 30px;
+        display: inline-block;
+        vertical-align: top;
+}
