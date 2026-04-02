@@ -11,6 +11,22 @@
 
 ## DESCRIÇÃO DO CASO: 
 lorem ipsum
+
 ## ESTRUTURA: 
-lorem ipsum
+cp1-frontend_vinharia-agnello/
+│
+├── index.html
+├── README.md
+├── src/
+│   ├── assets/
+│   │   └── imgs/
+│   │   │      └── VinhariaAgnello.png
+│   │   └── css/
+│   │	     └── style.css
+│   └── pages/
+│       ├── carrinho.html
+│       ├── contato.html
+│       ├── sobre.html
+│       └──vinhos.html
+
 ## LINK DO GITHUB E GITHUB PAGES.
