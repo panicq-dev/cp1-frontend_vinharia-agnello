@@ -1,17 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Conheça nossa seleção de vinhos artesanais importados.">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <title>Vinhos</title>
+
+    <!-- Adicionar isto ao css mais tarde -->
+    <style> 
+        .tiposVinho div {
+        width: 180px;
+        margin: 30px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    </style> 
+    <!-- Adicionar isto ao css mais tarde -->
+    
 </head>
 <body>
+
     <header>
-        
+        <h1>Nossos Vinhos</h1>
+        <img src="/src/assets/imgs/VinheriaAgnello.png" alt="Logo da Vinheria Agnello" width="300" height="300">
     </header>
 
+    <nav>
+        <ul>
+            <li><a href="/src/index.html">Início</a></li>
+            <li><a href="/src/pages/vinhos.html">Nossos Vinhos</a></li>
+            <li><a href="/src/pages/sobre.html">Sobre</a></li>
+            <li><a href="/src/pages/contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
     <main>
-        <a href="/index.html">Voltar</a>
+        <section>
+        <h2>Conheça os tipos de vinhos</h2>
+            <div class="tiposVinho">
+                <div><h3>Vinho Tinto</h3><img src="/src/assets/imgs/vinhoTinto.png" height="250px" alt="Tipo Vinho Tinto."></div>
+                <div><h3>Vinho Rosé</h3><img src="/src/assets/imgs/vinhoRose.png" height="250px" alt="Tipo Vinho Rosé."></div>
+                <div><h3>Vinho Branco</h3><img src="/src/assets/imgs/vinhoBranco.png" height="250px" alt="Tipo Vinho Branco."></div>           g
+                <div><h3>Espumante</h3><img src="/src/assets/imgs/VinhoEspumante.png" height="250px" alt="Tipo Vinho Espumante."></div>       
+                <div><h3>Vinho Licoroso</h3><img src="/src/assets/imgs/vinhoLicoroso.png" height="250px" alt="Tipo Vinho Licoroso."></div>
+            </div>
+        </section>
     </main>
 </body>
 </html>

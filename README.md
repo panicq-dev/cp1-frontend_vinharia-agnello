@@ -8,9 +8,10 @@
 | `Roberto Dantas Melo Filho` | 566716 |
 | `Vitor Assis` | 572192 |
 
-
 ## DESCRIÇÃO DO CASO: 
-lorem ipsum
+- lorem ipsum
 ## ESTRUTURA: 
-lorem ipsum
+- lorem ipsum
 ## LINK DO GITHUB E GITHUB PAGES.
+- Repositório: https://github.com/panicq-dev/cp1-frontend/
+- Github Pages:
