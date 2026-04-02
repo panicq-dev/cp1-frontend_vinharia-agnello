@@ -1,4 +1,4 @@
-# Vinharia Agnello
+# Vinheria Agnello
 ## GRUPO
 | PESSOAS | RM |
 | --- | :---: |
@@ -21,7 +21,7 @@ O sistema tem como objetivo permitir que os usuários naveguem por diferentes pr
 
 ## ESTRUTURA: 
 ```
-cp1-frontend_vinharia-agnello/
+cp1-frontend/
 │
 ├── index.html
 ├── README.md
