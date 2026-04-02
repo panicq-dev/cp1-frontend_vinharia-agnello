@@ -11,8 +11,6 @@
 ## DESCRIÇÃO DO CASO: 
 A Vinharia Agnello é um projeto desenvolvido para a disciplina de Front-end Design, ministrada pelo professor Lucas Borges, como parte do Checkpoint 1 do curso de Engenharia de Software da FIAP.
 
-O sistema tem como objetivo permitir que os usuários naveguem por diferentes produtos, visualizem detalhes, adicionem itens ao carrinho e entrem em contato com a empresa, proporcionando uma experiência simples e intuitiva.
-
 - Tecnologias Utilizadas
 -- HTML
 -- CSS
@@ -29,8 +27,17 @@ cp1-frontend/
 │   ├── assets/
 │   │   ├── imgs/
 │   │   │   └── VinhariaAgnello.png
-│   │   └── css/
-│   │       └── style.css
+│   │   │   └── vinhoBranco.png
+│   │   │   └── vinhoEspumante.png
+│   │   │   └── vinhoLicoroso.png
+│   │   │   └── vinhoRose.png
+│   │   │   └── vinhoTinto.png
+│   │   ├── videos/
+│   │       └── video_vinho.mp4
+│   └── css/
+│   │     └── style.css
+│   └── js/
+│   │     └── script.js
 │   └── pages/
 │       ├── carrinho.html
 │       ├── contato.html
