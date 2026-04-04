@@ -19,7 +19,7 @@ A Vinharia Agnello é um projeto desenvolvido para a disciplina de Front-end Des
 
 ## ESTRUTURA: 
 ```
-cp1-frontend/
+cp1-frontend_vinharia-agnello/
 │
 ├── index.html
 ├── README.md
