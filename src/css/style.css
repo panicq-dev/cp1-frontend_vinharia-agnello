@@ -1,6 +1,86 @@
-.logo_VinheriaAgnello{
-    width: 200px;
-    height: 200px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-color: #909e8f transparent;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color:#ecebdb80;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.253);
+}
+
+.logo{
+    font-size: 20px;
+    color: #333;
+}
+
+.logo img{
+    position: relative;
+    height: 8vh;
+    width: auto;
+}
+
+.centralizar table{
+    display:flexbox;
+    height: 30vh;
+    justify-content: center;
+}
+
+/*
+.logo img{
+    height: 16vh;
+    width: auto;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    position:fixed ;
+    top: 5.2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
+
+.nav-links{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-links a{
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    transition: transform 0.2s ease;
+}
+
+.nav-links a:hover{
+    color: #d4af37;
+    transform: scale(1.23);
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+
+.main{
+    text-align: center;
+    padding: 20px;
 }
 
 .tiposVinho div {
@@ -37,15 +117,13 @@
 .titulo-principal {
     color: #8B0000; 
     text-align: center;
-    font-family: 'Georgia', serif;
     margin-bottom: 20px;
 }
 
 .frase-destaque {
-    color: #4B0082; /*cor elegante*/
     font-style: italic;
     text-align: center;
     font-size: 1.5em;
-    font-family: 'Arial', sans-serif;
+    font-family: "sans-sherif";
     margin: 10px 0;
 }

@@ -9,18 +9,19 @@
     <title>Vinheria Agnello | Home</title>
 </head>
 <body>
-    <h1 class="titulo-principal">Bem-vindo à Vinharia Agnello!</h1>
-    <header>
-        <img src="./src/assets/imgs/VinheriaAgnello.png" alt="Logo Vinharia Agnello" class="logo_VinheriaAgnello">
-        <ul>
-            <li><a href="./src/pages/contato.html"> Contato </a></li>
-            <li><a href="./src/pages/vinhos.html"> Nossos vinhos </a></li>
-            <li><a href="./src/pages/carrinho.html"> Carrinho </a></li>
-            <li><a href="./src/pages/sobre.html"> Sobre </a></li>
-        </ul>
+    <header class="header">
+        <div class="logo">
+        <img src="./src/assets/imgs/logo5000vinheria.png" alt="">
+        </div>
+        <nav class="nav-links">
+            <a href="./src/pages/contato.html"> Contato </a>
+            <a href="./src/pages/vinhos.html"> Nossos vinhos </a>
+            <a href="./src/pages/carrinho.html"> Carrinho </a>
+            <a href="./src/pages/sobre.html"> Sobre </a>
+        </nav>
+
     </header>
-    <hr>
-    <section>
+    <section class="centralizar">
         <table>
             <tr>
                 <td>
@@ -35,14 +36,16 @@
             <tr>
                 <td>
                     <h2 class="frase-destaque">"Descubra o sabor da excelência."</h2>
+                    <video width="800" height="auto" starts="0" loop autoplay muted>
+                    <source src="src/assets/videos/video_vinho.mp4" type="video/mp4">
+                    </video>
                 </td>
             </tr>
+            
         </table>
     </section>
     <section>
-        <video width="320" height="240" starts="0" loop autoplay muted>
-            <source src="src/assets/videos/video_vinho.mp4" type="video/mp4">
-        </video>
+        
 
     </section>
 </body>
