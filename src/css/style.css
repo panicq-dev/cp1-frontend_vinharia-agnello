@@ -92,20 +92,19 @@ body {
 /* classes e ids */
 .tiposVinho {
     text-align: center;
-}   
+    display: flex;
+}  
+ 
 .tiposVinho img {
-    width: 100%;
+    width: 200px;
     height: auto;
 }
+
 .tiposVinho h3 {
     margin-top: 10px;
     font-size: 18px;
 }
-.tiposVinho p {
-    margin-top: 5px;
-    font-size: 14px;
-    color: #555;
-}
+
 #container-principal {
     max-width: 1200px;
     margin: 0 auto;
