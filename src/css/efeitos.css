@@ -1,3 +1,13 @@
+.nav-links a{
+    transition: color 0.3s ease;
+    transition: transform 0.2s ease;
+}
+
+.nav-links a:hover{
+    color: #d4af37;
+    transform: scale(1.23);
+}
+
 .zoom {
     transition: transform 0.3s ease;
 }
@@ -5,3 +15,4 @@
 .zoom:hover {
   transform: scale(1.2); /* aumenta 20% */
 }
+
