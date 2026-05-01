@@ -24,16 +24,18 @@ body {
     padding: 1rem 2rem;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.253);
+    margin-bottom: 50px;
 }
 
-.logo{font-size: 20px;
+.logo{
     color: #333;
 }
 
 .logo img{
     position: relative;
-    height: 8vh;
+    height: 10vh;
     width: auto;
+    animation: flutuar 3s ease-in-out infinite;
 }
 
 .centralizar table{
@@ -151,7 +153,6 @@ body {
     border: 1px solid transparent; 
     background-color: whitesmoke;
     outline: none;
-    transition: 0.5s;
 }
 
 .form-contato input:focus,
@@ -174,18 +175,8 @@ body {
     font-weight: bold;
     border: none;
     border-radius: 10px;
-    transition: 0.2s ease;
     cursor: pointer; 
 } 
-
-.form-contato button:hover {
-    transform: scale(1.02);
-}
-
-.form-contato button:active {
-    background-color: #fad045;
-}
-
 
 #homeSecoes{
     display: flex;
