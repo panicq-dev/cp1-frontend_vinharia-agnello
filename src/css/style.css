@@ -1,3 +1,8 @@
+/* Variáveis e configurações gerais */
+:root {
+  --cor-primaria: #ffc400;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +11,9 @@
 }
 
 body {
-    font-family: 'Georgia', serif;
-    background-color:#ecebdb80;
+    
+    background-color:#f1f1f180;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -36,19 +42,6 @@ body {
     justify-content: center;
 }
 
-/*
-.logo img{
-    height: 16vh;
-    width: auto;
-    display: grid;
-    place-items: center;
-    margin: 0 auto;
-    position:fixed ;
-    top: 5.2%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-*/
 
 .nav-links{
     display: flex;
@@ -115,19 +108,84 @@ body {
     font-style: italic;
     text-align: center;
     font-size: 1.5em;
-    font-family: "sans-sherif";
+    font-family: Georgia, serif; 
     margin: 10px 0;
 }
 
-
-form{
-    margin: 10px;
+/* ÁREA do FORMULÁRIO */
+.titulo-contato {
+    text-align: center;
+    margin-top: 100px;
+    color: var(--cor-primaria);
 }
-textarea {
+
+.container-contato {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 10px #e9e9e8;
+    border-radius: 20px;
+    padding: 30px;
+    width: 400px;
+}
+
+/* FORMULÁRIO: Elementos do formulário */
+.form-contato label, 
+.form-contato input, 
+.form-contato textarea {
+    margin: 5px;
+}
+
+.form-contato input, 
+.form-contato textarea {
+    font-family: inherit;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid transparent; 
+    background-color: whitesmoke;
+    outline: none;
+    transition: 0.5s;
+}
+
+.form-contato input:focus,
+.form-contato textarea:focus {
+    border-color: #d4af37;
+    box-shadow: 0 0 5px #f1c840;
+}
+
+.form-contato textarea {
     resize: none;
-    width: 500px;
-    height: 200px;
-        }
+    min-height: 200px;
+}
+
+/* FORMULÁRIO: Configurações do Botão de Enviar */
+.form-contato button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--cor-primaria);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s ease;
+    cursor: pointer; 
+} 
+
+.form-contato button:hover {
+    transform: scale(1.02);
+}
+
+.form-contato button:active {
+    background-color: #fad045;
+}
+
 
 #homeSecoes{
     display: flex;
@@ -135,3 +193,4 @@ textarea {
     align-items: center;
     gap:30px;
 }
+
