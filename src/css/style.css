@@ -132,6 +132,6 @@ textarea {
 #homeSecoes{
     display: flex;
     justify-content: center;
-    align-itens: center;
+    align-items: center;
     gap:30px;
 }
