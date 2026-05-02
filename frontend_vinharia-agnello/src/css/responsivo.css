@@ -1,0 +1,32 @@
+/* Seleciona a primeira letra de cada frase com a classe frase-destaque */
+.frase-destaque::first-letter {
+    color: #D4AF37 !important; /* Tom de dourado */
+    font-size: 1.5em !important; /* Aumenta um pouco o tamanho para dar ênfase */
+    font-weight: bold !important;
+    font-style: italic !important; /* Opcional, para combinar com o estilo da imagem */
+    margin-right: 2px;
+}
+
+/* Pseudo-classe adicional para melhorar o visual ao passar o mouse (hover) */
+.frase-destaque:hover {
+    letter-spacing: 1px;
+    transition: 0.3s;
+    cursor: default;
+}
+
+/* Cria uma linha decorativa dourada abaixo da frase */
+.frase-destaque::after {
+    content: ""; /* Necessário para o pseudo-elemento aparecer */
+    display: block;
+    width: 0; /* Começa com largura zero para o efeito de animação */
+    height: 2px;
+    background-color: #D4AF37;
+    transition: width 0.5s ease; /* Faz a linha "crescer" suavemente */
+    margin-top: 5px;
+}
+
+/* Quando passar o mouse, a linha aparece */
+.frase-destaque:hover::after {
+    width: 50px; /* Tamanho da linha ao passar o mouse */
+}
+

@@ -1,0 +1,44 @@
+.nav-links a{
+    transition: color 0.3s ease;
+    transition: transform 0.2s ease;
+}
+
+.nav-links a:hover{
+    color: #d4af37;
+    transform: scale(1.23);
+}
+
+.zoom {
+    transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+  transform: scale(1.2); 
+}
+
+/* Formulário: efeitos */
+.form-contato input, 
+.form-contato textarea {
+    transition: 0.5s;
+}
+
+.form-contato button{
+    transition: 0.2s ease;
+}
+
+.form-contato button:hover {
+    transform: scale(1.02);
+}
+
+.form-contato button:active {
+    background-color: #fad045;
+}
+
+/* Animações com @keyframes */
+@keyframes flutuar { /* Atualmente, sendo usado na logo da nav-bar*/
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0); }
+}
+
+
