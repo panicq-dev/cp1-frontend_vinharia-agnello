@@ -8,14 +8,12 @@
 | `Roberto Dantas Melo Filho` | 566716 |
 | `Vitor Assis` | 572192 |
 
-## DESCRIÇÃO DO CASO: 
-A Vinharia Agnello é um projeto desenvolvido para a disciplina de Front-end Design, ministrada pelo professor Lucas Borges, como parte do Checkpoint 1 do curso de Engenharia de Software da FIAP.
+## DESCRIÇÃO DE CASO.
+A **Vinheria Agnello** é uma empresa familiar com mais de 15 anos de atuação, reconhecida pelo atendimento personalizado e consultivo na venda de vinhos.
 
-- Tecnologias Utilizadas
--- HTML
--- CSS
+Com a pandemia, houve uma redução significativa no movimento da loja física e um aumento da concorrência no ambiente digital. Diante desse cenário, surgiu a necessidade de desenvolver um **e-commerce** capaz de manter a essência do atendimento da loja física.
 
-
+Este projeto faz parte dos **Checkpoints da disciplina de Front-End Design da FIAP**, sendo desenvolvido de forma incremental.
 
 ## ESTRUTURA: 
 ```
@@ -26,7 +24,7 @@ cp1-frontend_vinharia-agnello/
 ├── src/
 │   ├── assets/
 │   │   ├── imgs/
-│   │   │   └── VinhariaAgnello.png
+│   │   │   └── logo-agnello.png
 │   │   │   └── vinhoBranco.png
 │   │   │   └── vinhoEspumante.png
 │   │   │   └── vinhoLicoroso.png
@@ -36,6 +34,7 @@ cp1-frontend_vinharia-agnello/
 │   │       └── video_vinho.mp4
 │   └── css/
 │   │     └── style.css
+│   │     └── efeitos.css
 │   └── js/
 │   │     └── script.js
 │   └── pages/
@@ -47,4 +46,4 @@ cp1-frontend_vinharia-agnello/
 
 ## LINK DO GITHUB E GITHUB PAGES.
 - Repositório: https://github.com/panicq-dev/cp1-frontend/
-- Github Pages:
+- Github Pages: https://panicq-dev.github.io/frontend_vinharia-agnello/
