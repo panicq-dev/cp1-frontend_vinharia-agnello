@@ -3,6 +3,11 @@
   --cor-primaria: #ffc400;
 }
 
+::selection{
+    color: white;
+    background: #d4af37;
+}
+
 * {
     margin: 0;
     padding: 0;
