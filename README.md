@@ -17,7 +17,7 @@ Este projeto faz parte dos **Checkpoints da disciplina de Front-End Design da FI
 
 ## ESTRUTURA: 
 ```
-cp1-frontend_vinharia-agnello/
+frontend_vinharia-agnello/
 │
 ├── index.html
 ├── README.md
